@@ -45,7 +45,7 @@ Logically, to get this model to work properly, one would need to include **every
 Regarding the function of this project, it will read for your necessary javascript documents, crunch them all together, and pack your code using ParseMaster (ported to php by Nicolas Martin). The "loader" module reads for javascript documents to import via a main json configuration document structured like so,
 ```json
 {
-"Libraries": {
+	"Libraries": {
 		"enabled": true,
 		"local": false,
 		"list": [
@@ -80,7 +80,7 @@ Regarding the function of this project, it will read for your necessary javascri
 	}
 }
 ```
-The "loader" module can be used be executing,
+Within the configuration documents, object nodes can be named *anything* -- I've used "Libraries", "Initialization", and "Controllers" for a level of abstraction and expressiveness. Regarding special properties, -**local** will tell the module whether to load via your base url or read from an external source and -**enable** is self explanatory. The ***loader*** module can be used be executing,
 ```
 http://.../server/?module=loader&resource=scripts
 ```
