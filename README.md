@@ -42,7 +42,7 @@ Logically, to get this model to work properly, one would need to include **every
   <script src=".../utility3.js"></script>
 </head>
 ```
-Regarding the function of this project, it will read for your necessary javascript documents, crunch them all together, and pack your code using ParseMaster (ported to php by Nicolas Martin). The "loader" module reads for javascript documents to import via a main json configuration document structured like so,
+Regarding the function of this project, it will read for your necessary javascript documents, crunch them all together, and pack your code using ParseMaster (ported to php by Nicolas Martin). The "loader" module reads for javascript documents to import via the json configuration document structured like so,
 ```json
 {
 	"Libraries": {
