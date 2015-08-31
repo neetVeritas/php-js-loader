@@ -1,4 +1,4 @@
-# php-js-loader
+# php-js-loader (php5)
 This project was created specifically for LAMP, LEMP, WAMP, ... stack developers, to simplify the modularization of an MVC project. On a Node, Ruby, or Django backend, one can easily "lazy load" dependencies, though this task can be quite gruesome and hacky on a PHP platform. Take for example the current directory tree,
 
 ```
