@@ -1,4 +1,15 @@
 {
+	"Libraries": {
+        "enabled": true,
+        "local": false,
+        "list": [
+            {
+                "name": "Angular",
+                "enabled": true,
+                "source": "https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.min.js"
+            }
+        ]
+    },
 	"Initialize": {
 		"enabled": true,
 		"local": true,
@@ -6,44 +17,12 @@
 			{
 				"name": "Module",
 				"enabled": true,
-				"source": "/app/app.module.js"
+				"source": "/examplr/app.js"
 			},
-			{
-				"name": "Router",
+            {
+				"name": "Controller",
 				"enabled": true,
-				"source": "/app/app.routes.js"
-			}
-		]
-	},
-	"Directives": {
-		"enabled": true,
-		"local": true,
-		"list": [
-			{
-				"name": "Header",
-				"enabled": true,
-				"source": "/app/shared/header/directive.js"
-			},
-			{
-				"name": "Footer",
-				"enabled": true,
-				"source": "/app/shared/footer/directive.js"
-			}
-		]
-	},
-	"Controllers": {
-		"enabled": true,
-		"local": true,
-		"list": [
-			{
-				"name": "Home",
-				"enabled": true,
-				"source": "/app/components/home/controller.js"
-			},
-			{
-				"name": "About",
-				"enabled": false,
-				"source": "/app/components/about/controller.js"
+				"source": "/examplr/controller.js"
 			}
 		]
 	}
